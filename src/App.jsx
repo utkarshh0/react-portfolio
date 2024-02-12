@@ -16,11 +16,11 @@ export default function App() {
   const[activeSection, setActiveSection] = useState('home');
 
 
-  const [homeRef, homeInView] = useInView({threshold : 0.5});
-  const [aboutRef, aboutInView] = useInView({threshold : 0.5});
-  const [experienceRef, experienceInView] = useInView({threshold : 0.5});
-  const [projectsRef, projectsInView] = useInView({threshold : 0.5});
-  const [contactRef, contactInView] = useInView({threshold : 0.5});
+  const [homeRef, homeInView] = useInView();
+  const [aboutRef, aboutInView] = useInView();
+  const [experienceRef, experienceInView] = useInView();
+  const [projectsRef, projectsInView] = useInView();
+  const [contactRef, contactInView] = useInView();
 
   useEffect(() => {
 
