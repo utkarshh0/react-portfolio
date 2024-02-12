@@ -1,3 +1,4 @@
+
 nav{
     background-color: var(--bgMainColor);
     position: fixed;
@@ -5,7 +6,8 @@ nav{
     bottom: 3rem;
     padding:1rem;
     border-radius: 2rem;
-    opacity: 0.8;   
+    opacity: 0.8; 
+    z-index: 1000;  
   }
 
 nav a{

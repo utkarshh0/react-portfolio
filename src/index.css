@@ -109,6 +109,17 @@ button{
     object-fit: cover;
 } */
 
+section{
+    animation: fade-in;
+    animation-timeline: view();
+    animation-range: entry;
+}
+
+@keyframes fade-in {
+    from{scale : .7; opacity : 0}
+    to{scale : 1; opacity : 1}
+}
+
 
 
 @media screen and (max-width: 1024px){
