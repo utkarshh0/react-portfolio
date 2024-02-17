@@ -17,7 +17,7 @@ export default function Contact({contactRef}) {
                 <div className="icon"><MdEmail /></div>
                 <h4>Email</h4>
                 <h5>utk.arshh.9.2@gmail.com</h5>
-                <button onClick={() => window.open('mailto:utk.arshh.9.3@gmail.com', '_blank')}>Send a message</button>
+                <button onClick={() => window.open('mailto:utk.arshh.9.2@gmail.com', '_blank')}>Send a message</button>
               </div>
               <div className="whatsapp">
                 <div className="icon"><FaWhatsapp /></div>
