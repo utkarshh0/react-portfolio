@@ -1,6 +1,7 @@
 import { FaCss3, FaGithub, FaLink, FaHtml5} from "react-icons/fa";
 import { TbBrandJavascript, TbApi } from 'react-icons/tb'
 import './Projects.css'
+import frans from '../../assets/projects/frans.png'
 import weather from '../../assets/projects/weather.png'
 import todo from '../../assets/projects/todo.png'
 import password from '../../assets/projects/password.png'
@@ -15,6 +16,20 @@ export default function Projects({projectsRef}) {
       <h2>Projects</h2>
 
       <div className="container projectContainer">
+
+        <div className="projectCard">
+          <div className="img">
+            <img src={frans} alt="" />
+          </div>
+          <div className="techs">
+            <FaHtml5 /> <FaCss3 /> <TbBrandJavascript /> <TbApi />
+          </div>
+          <p>Frans Hals Museum Replica</p>
+          <div className="btns">
+            <a target="_blank" href="https://utkarshh001.github.io/Frans-Hals-Museum-Replica/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/uTkarsHH001/Frans-Hals-Museum-Replica"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
 
         <div className="projectCard">
           <div className="img">
