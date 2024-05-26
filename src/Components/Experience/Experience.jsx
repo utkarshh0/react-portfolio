@@ -1,6 +1,6 @@
 import { FaCss3, FaGithub, FaHtml5, FaJava, FaReact } from "react-icons/fa";
-import { TbApi, TbBrandJavascript, TbBrandMysql, TbBrandNodejs, TbBrandVscode, TbLetterC, TbSql } from 'react-icons/tb'
-import { SiCplusplus, SiFirebase, SiGnubash, SiTailwindcss } from 'react-icons/si'
+import { TbApi, TbBrandJavascript, TbBrandNodejs, TbBrandVscode, TbLetterC, TbSql } from 'react-icons/tb'
+import { SiCplusplus, SiGnubash, SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si'
 import './Experience.css'
 import PropTypes from 'prop-types'
 
@@ -50,23 +50,13 @@ export default function Experience({experienceRef}) {
             <h5 className="cardHeading">Backend Development</h5>
 
             <div className="cardContent">
-
-            <div className="cardInfo">
+              
+              <div className="cardInfo">
                   <div className="icon">
                     <TbSql />
                   </div>
                   <div className="info">
                     <h4>SQL</h4>
-                    <small>Intermediate</small>
-                  </div>
-              </div>
-              
-              <div className="cardInfo">
-                  <div className="icon">
-                    <TbBrandMysql />
-                  </div>
-                  <div className="info">
-                    <h4>MySQL</h4>
                     <small>Intermediate</small>
                   </div>
               </div>
@@ -77,6 +67,26 @@ export default function Experience({experienceRef}) {
                   </div>
                   <div className="info">
                     <h4>NodeJs</h4>
+                    <small>Intermediate</small>
+                  </div>
+              </div>
+
+              <div className="cardInfo">
+                  <div className="icon">
+                    <SiExpress />
+                  </div>
+                  <div className="info">
+                    <h4>Express</h4>
+                    <small>Intermediate</small>
+                  </div>
+              </div>
+
+              <div className="cardInfo">
+                  <div className="icon">
+                    <SiMongodb />
+                  </div>
+                  <div className="info">
+                    <h4>MongoDB</h4>
                     <small>Basic</small>
                   </div>
               </div>
@@ -179,16 +189,6 @@ export default function Experience({experienceRef}) {
                 <div className="info">
                   <h4>VsCode</h4>
                   <small>Intermediate</small>
-                </div>
-            </div>
-
-            <div className="cardInfo">
-                <div className="icon">
-                  <SiFirebase />
-                </div>
-                <div className="info">
-                  <h4>Firebase</h4>
-                  <small>Basic</small>
                 </div>
             </div>
             </div>

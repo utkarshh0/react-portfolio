@@ -1,6 +1,9 @@
-import { FaCss3, FaGithub, FaLink, FaHtml5} from "react-icons/fa";
-import { TbBrandJavascript, TbApi } from 'react-icons/tb'
+import { FaCss3, FaGithub, FaLink, FaHtml5, FaReact} from "react-icons/fa";
+import { TbBrandJavascript, TbApi, TbBrandNodejs } from 'react-icons/tb'
+import { SiTailwindcss, SiExpress, SiSocketdotio } from 'react-icons/si'
+
 import './Projects.css'
+import colabsync from '../../assets/projects/colabsync.png'
 import frans from '../../assets/projects/frans.png'
 import weather from '../../assets/projects/weather.png'
 import todo from '../../assets/projects/todo.png'
@@ -19,10 +22,24 @@ export default function Projects({projectsRef}) {
 
         <div className="projectCard">
           <div className="img">
+            <img src={colabsync} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact /> <SiTailwindcss /> <SiExpress /> <TbBrandNodejs /> <SiSocketdotio />
+          </div>
+          <p>CoLabSync</p>
+          <div className="btns">
+            <a target="_blank" href="https://colabsync.netlify.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/uTkarsHH001/colabsync"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
+
+        <div className="projectCard">
+          <div className="img">
             <img src={frans} alt="" />
           </div>
           <div className="techs">
-            <FaHtml5 /> <FaCss3 /> <TbBrandJavascript /> <TbApi />
+            <FaReact /> <SiTailwindcss />
           </div>
           <p>Frans Hals Museum Replica</p>
           <div className="btns">
