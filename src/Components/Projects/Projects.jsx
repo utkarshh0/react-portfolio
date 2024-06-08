@@ -1,8 +1,9 @@
 import { FaCss3, FaGithub, FaLink, FaHtml5, FaReact} from "react-icons/fa";
-import { TbBrandJavascript, TbApi, TbBrandNodejs } from 'react-icons/tb'
+import { TbBrandJavascript, TbApi, TbBrandNodejs, TbBrandMongodb } from 'react-icons/tb'
 import { SiTailwindcss, SiExpress, SiSocketdotio } from 'react-icons/si'
 
 import './Projects.css'
+import paytm from '../../assets/projects/paytm.png'
 import colabsync from '../../assets/projects/colabsync.png'
 import frans from '../../assets/projects/frans.png'
 import weather from '../../assets/projects/weather.png'
@@ -19,6 +20,20 @@ export default function Projects({projectsRef}) {
       <h2>Projects</h2>
 
       <div className="container projectContainer">
+
+        <div className="projectCard">
+          <div className="img">
+            <img src={paytm} height={100} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact /> <SiTailwindcss /> <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb />
+          </div>
+          <p>Paytm-Wallet</p>
+          <div className="btns">
+            <a target="_blank" href="https://paytm-wallet-olive.vercel.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/uTkarsHH001/Paytm-Wallet"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
 
         <div className="projectCard">
           <div className="img">
