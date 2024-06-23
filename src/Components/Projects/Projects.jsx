@@ -28,7 +28,7 @@ export default function Projects({projectsRef}) {
           <div className="techs">
             <FaReact /> <SiTailwindcss /> <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb />
           </div>
-          <p>Paytm-Wallet</p>
+          <p>Paytm Wallet</p>
           <div className="btns">
             <a target="_blank" href="https://paytm-wallet-olive.vercel.app/"><FaLink /> &nbsp;Live</a>
             <a target="_blank" href="https://github.com/uTkarsHH001/Paytm-Wallet"><FaGithub /> &nbsp;Github</a>
