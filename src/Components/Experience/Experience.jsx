@@ -1,6 +1,6 @@
 import { FaCss3, FaGithub, FaHtml5, FaJava, FaReact } from "react-icons/fa";
 import { TbApi, TbBrandJavascript, TbBrandNodejs, TbBrandVscode, TbLetterC, TbSql } from 'react-icons/tb'
-import { SiCplusplus, SiGnubash, SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si'
+import { SiCplusplus, SiGnubash, SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiTypescript, SiRedux, SiPostman } from 'react-icons/si'
 import './Experience.css'
 import PropTypes from 'prop-types'
 
@@ -57,6 +57,16 @@ export default function Experience({experienceRef}) {
                   </div>
                   <div className="info">
                     <h4>SQL</h4>
+                    <small>Experienced</small>
+                  </div>
+              </div>
+              
+              <div className="cardInfo">
+                  <div className="icon">
+                    <SiMysql />
+                  </div>
+                  <div className="info">
+                    <h4>MySQL</h4>
                     <small>Intermediate</small>
                   </div>
               </div>
@@ -87,7 +97,7 @@ export default function Experience({experienceRef}) {
                   </div>
                   <div className="info">
                     <h4>MongoDB</h4>
-                    <small>Basic</small>
+                    <small>Intermediate</small>
                   </div>
               </div>
             </div>
@@ -125,6 +135,16 @@ export default function Experience({experienceRef}) {
                   <small>Experienced</small>
                 </div>
             </div>
+            
+            <div className="cardInfo">
+                <div className="icon">
+                  <SiTypescript />
+                </div>
+                <div className="info">
+                  <h4>TypeScript</h4>
+                  <small>Intermediate</small>
+                </div>
+            </div>
 
             <div className="cardInfo">
                 <div className="icon">
@@ -132,7 +152,7 @@ export default function Experience({experienceRef}) {
                 </div>
                 <div className="info">
                   <h4>Tailwind</h4>
-                  <small>Basic</small>
+                  <small>Experienced</small>
                 </div>
             </div>
 
@@ -142,7 +162,7 @@ export default function Experience({experienceRef}) {
                 </div>
                 <div className="info">
                   <h4>React</h4>
-                  <small>Intermediate</small>
+                  <small>Experienced</small>
                 </div>
             </div>
             </div>
@@ -154,10 +174,30 @@ export default function Experience({experienceRef}) {
             <div className="cardContent">
               <div className="cardInfo">
                   <div className="icon">
+                    <SiRedux />
+                  </div>
+                  <div className="info">
+                    <h4>Redux</h4>
+                    <small>Intermediate</small>
+                  </div>
+              </div>
+              
+              <div className="cardInfo">
+                  <div className="icon">
                     <FaGithub />
                   </div>
                   <div className="info">
-                    <h4>Gitub</h4>
+                    <h4>Github</h4>
+                    <small>Intermediate</small>
+                  </div>
+              </div>
+              
+              <div className="cardInfo">
+                  <div className="icon">
+                    <SiPostman />
+                  </div>
+                  <div className="info">
+                    <h4>Postman</h4>
                     <small>Intermediate</small>
                   </div>
               </div>
@@ -168,7 +208,7 @@ export default function Experience({experienceRef}) {
                 </div>
                 <div className="info">
                   <h4>API</h4>
-                  <small>Basic</small>
+                  <small>Intermediate</small>
                 </div>
             </div>
             

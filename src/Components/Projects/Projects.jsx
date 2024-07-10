@@ -1,9 +1,12 @@
 import { FaCss3, FaGithub, FaLink, FaHtml5, FaReact} from "react-icons/fa";
 import { TbBrandJavascript, TbApi, TbBrandNodejs, TbBrandMongodb } from 'react-icons/tb'
 import { SiTailwindcss, SiExpress, SiSocketdotio } from 'react-icons/si'
+import { MdOutlineManageHistory } from "react-icons/md";
+
 
 import './Projects.css'
 import paytm from '../../assets/projects/paytm.png'
+import telegram from '../../assets/projects/telegram.png'
 import colabsync from '../../assets/projects/colabsync.png'
 import frans from '../../assets/projects/frans.png'
 import weather from '../../assets/projects/weather.png'
@@ -49,6 +52,20 @@ export default function Projects({projectsRef}) {
           </div>
         </div>
 
+        <div className="projectCard">
+          <div className="img">
+            <img src={telegram} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact /> <SiTailwindcss /> <MdOutlineManageHistory />
+          </div>
+          <p>Telegram UI Clone</p>
+          <div className="btns">
+            <a target="_blank" href="https://web-tg.netlify.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/uTkarsHH001/Telegram-App"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
+        
         <div className="projectCard">
           <div className="img">
             <img src={frans} alt="" />

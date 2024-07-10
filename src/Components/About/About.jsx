@@ -15,7 +15,8 @@ export default function About({aboutRef}) {
               {/* <div className="rt"></div> */}
             </div>
             <div className="aboutMeInfo">
-            Continuously exploring new challenges and opportunities, I am a passionate and dedicated software developer with expertise in a wide range of programming languages and web technologies. My project portfolio reflects my commitment to creating innovative, user-centric solutions. I thrive in collaborative environments, utilizing problem-solving skills and a curious mindset to overcome challenges. With a Master&apos;s in Computer Application, I am well-equipped to contribute effectively to dynamic and challenging projects.
+                <b>Innovative Full Stack Developer Specializing in MERN Stack and Real-Time Applications.</b> <br /><br />
+                Passionate about creating scalable, secure, and user-friendly web solutions. Expertise in building intuitive interfaces with React and Tailwind CSS, and robust backends with Node.js and Express. Proven track record in delivering high-quality projects, including digital wallets, collaborative editors, and UI clones. Strong problem-solving skills and a commitment to continuous learning and improvement.
               <a className='btn' href="#contact">Let&apos;s Connect</a>
             </div>
           </div>
