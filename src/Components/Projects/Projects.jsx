@@ -5,9 +5,10 @@ import { MdOutlineManageHistory } from "react-icons/md";
 
 
 import './Projects.css'
+import hackhub from '../../assets/projects/hackhub.png'
+import numquest from '../../assets/projects/numquest.png'
 import blog from '../../assets/projects/blog.png'
 import paytm from '../../assets/projects/paytm.png'
-import telegram from '../../assets/projects/telegram.png'
 import colabsync from '../../assets/projects/colabsync.png'
 import frans from '../../assets/projects/frans.png'
 import weather from '../../assets/projects/weather.png'
@@ -35,21 +36,7 @@ export default function Projects({projectsRef}) {
           <p>Blog Sphere</p>
           <div className="btns">
             <a target="_blank" href="https://blogg-sphere.netlify.app/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Blog-Sphere/"><FaGithub /> &nbsp;Github</a>
-          </div>
-        </div>
-
-        <div className="projectCard">
-          <div className="img">
-            <img src={paytm} height={100} alt="" />
-          </div>
-          <div className="techs">
-            <FaReact /> <SiTailwindcss /> <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb />
-          </div>
-          <p>Paytm Wallet</p>
-          <div className="btns">
-            <a target="_blank" href="https://paytm-wallet-olive.vercel.app/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Paytm-Wallet"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Blog-Sphere/"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
@@ -63,21 +50,35 @@ export default function Projects({projectsRef}) {
           <p>CoLabSync</p>
           <div className="btns">
             <a target="_blank" href="https://colabsync.netlify.app/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/colabsync"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://github.com/utkarshh0/colabsync"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
         <div className="projectCard">
           <div className="img">
-            <img src={telegram} alt="" />
+            <img src={paytm} height={100} alt="" />
           </div>
           <div className="techs">
-            <FaReact /> <SiTailwindcss /> <MdOutlineManageHistory />
+            <FaReact /> <SiTailwindcss /> <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb />
           </div>
-          <p>Telegram UI Clone</p>
+          <p>Paytm Wallet</p>
           <div className="btns">
-            <a target="_blank" href="https://web-tg.netlify.app/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Telegram-App"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://paytm-wallet-olive.vercel.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Paytm-Wallet"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
+
+        <div className="projectCard">
+          <div className="img">
+            <img src={numquest} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact /> <SiTailwindcss /> <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb />
+          </div>
+          <p>NumQuest</p>
+          <div className="btns">
+            <a target="_blank" href="https://numquestt.netlify.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/NumQuest"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
         
@@ -90,8 +91,22 @@ export default function Projects({projectsRef}) {
           </div>
           <p>Frans Hals Museum Replica</p>
           <div className="btns">
-            <a target="_blank" href="https://utkarshh001.github.io/Frans-Hals-Museum-Replica/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Frans-Hals-Museum-Replica"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://utkarshh0.github.io/Frans-Hals-Museum-Replica/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Frans-Hals-Museum-Replica"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
+       
+        <div className="projectCard">
+          <div className="img">
+            <img src={hackhub} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact /> <SiTailwindcss /> <SiTypescript /> 
+          </div>
+          <p>HackHub</p>
+          <div className="btns">
+            <a target="_blank" href="https://utkarshh0.github.io/Frans-Hals-Museum-Replica/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/HackHub"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
@@ -104,8 +119,8 @@ export default function Projects({projectsRef}) {
           </div>
           <p>Weather Forecast App</p>
           <div className="btns">
-            <a target="_blank" href="https://utkarshh001.github.io/Weather-App/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Weather-App"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://utkarshh0.github.io/Weather-App/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Weather-App"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
@@ -118,8 +133,8 @@ export default function Projects({projectsRef}) {
           </div>
           <p>To Do App</p>
           <div className="btns">
-            <a target="_blank" href="https://utkarshh001.github.io/To-Do-List/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/To-Do-List"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://utkarshh0.github.io/To-Do-List/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/To-Do-List"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
@@ -146,8 +161,8 @@ export default function Projects({projectsRef}) {
           </div>
           <p>Password Generator</p>
           <div className="btns">
-            <a target="_blank" href="https://utkarshh001.github.io/Password-Generator/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Password-Generator"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://utkarshh0.github.io/Password-Generator/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Password-Generator"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
@@ -160,8 +175,8 @@ export default function Projects({projectsRef}) {
           </div>
           <p>Huddle Landing Page</p>
           <div className="btns">
-            <a target="_blank" href="https://utkarshh001.github.io/Huddle-Landing-Page/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/uTkarsHH001/Huddle-Landing-Page"><FaGithub /> &nbsp;Github</a>
+            <a target="_blank" href="https://utkarshh0.github.io/Huddle-Landing-Page/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Huddle-Landing-Page"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
       </div>
