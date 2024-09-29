@@ -12,7 +12,7 @@ export default function Home({homeRef}) {
         <section id="home" ref={homeRef} className="container">
           <h5>Hello I&apos;m</h5>
           <h1>Utkarsh Kataria</h1>
-          <h5>React Developer</h5>
+          <h5>Full Stack Developer</h5>
           <Buttons />
           <div className="socials">
             <Socials />

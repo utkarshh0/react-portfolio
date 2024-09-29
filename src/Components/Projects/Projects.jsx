@@ -105,7 +105,7 @@ export default function Projects({projectsRef}) {
           </div>
           <p>HackHub</p>
           <div className="btns">
-            <a target="_blank" href="https://utkarshh0.github.io/Frans-Hals-Museum-Replica/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://hackhubb.netlify.app/"><FaLink /> &nbsp;Live</a>
             <a target="_blank" href="https://github.com/utkarshh0/HackHub"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
