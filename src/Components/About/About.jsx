@@ -16,7 +16,9 @@ export default function About({aboutRef}) {
             </div>
             <div className="aboutMeInfo">
                 <b>Innovative Full Stack Developer Specializing in MERN Stack and Real-Time Applications.</b> <br /><br />
-                Passionate about creating scalable, secure, and user-friendly web solutions. Expertise in building intuitive interfaces with React and Tailwind CSS, and robust backends with Node.js and Express. Proven track record in delivering high-quality projects, including digital wallets, collaborative editors, and UI clones. Strong problem-solving skills and a commitment to continuous learning and improvement.
+                <p>
+                I’m an MCA graduate with a strong background in full-stack development, especially in Java, JavaScript, React, and Tailwind CSS. I’ve had the opportunity to work on a range of projects using the MERN stack, which helped me build a solid understanding of both frontend and backend development, as well as database management with SQL and MongoDB. During my internship at Hunt the Career, I worked on creating responsive and dynamic UIs with React, Tailwind, and Redux, and also handled API integrations. I enjoy problem-solving and learning new things, which is why I’m excited about the opportunity at Stripe, where I can use my skills to contribute to innovative solutions and grow alongside the team.
+                </p>
               <a className='btn' href="#contact">Let&apos;s Connect</a>
             </div>
           </div>

@@ -51,4 +51,7 @@ h2, h5{
         gap:2rem;
     }
 
+    .aboutMeInfo{
+        width: 100%;
+    }
 }
