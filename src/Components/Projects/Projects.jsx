@@ -1,6 +1,7 @@
 import { FaCss3, FaGithub, FaLink, FaHtml5, FaReact} from "react-icons/fa";
 import { TbBrandJavascript, TbApi, TbBrandNodejs, TbBrandMongodb } from 'react-icons/tb'
-import { SiTailwindcss, SiExpress, SiSocketdotio, SiTypescript } from 'react-icons/si'
+import { SiTailwindcss, SiExpress, SiSocketdotio, SiTypescript, SiRedux } from 'react-icons/si'
+import { GrMysql } from "react-icons/gr";
 import { MdOutlineManageHistory } from "react-icons/md";
 
 
@@ -16,6 +17,7 @@ import todo from '../../assets/projects/todo.png'
 import password from '../../assets/projects/password.png'
 import portfolio from '../../assets/projects/portfolio.png'
 import huddle from '../../assets/projects/huddle.png'
+import planit from '../../assets/projects/PlanIt.png'
 import PropTypes from 'prop-types'
 
 export default function Projects({projectsRef}) {
@@ -28,20 +30,6 @@ export default function Projects({projectsRef}) {
 
         <div className="projectCard">
           <div className="img">
-            <img src={blog} height={100} alt="" />
-          </div>
-          <div className="techs">
-            <FaReact />  <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb /> <SiTypescript /> <SiTailwindcss />
-          </div>
-          <p>Blog Sphere</p>
-          <div className="btns">
-            <a target="_blank" href="https://blogg-sphere.netlify.app/"><FaLink /> &nbsp;Live</a>
-            <a target="_blank" href="https://github.com/utkarshh0/Blog-Sphere/"><FaGithub /> &nbsp;Github</a>
-          </div>
-        </div>
-
-        <div className="projectCard">
-          <div className="img">
             <img src={colabsync} alt="" />
           </div>
           <div className="techs">
@@ -51,6 +39,34 @@ export default function Projects({projectsRef}) {
           <div className="btns">
             <a target="_blank" href="https://colabsync.netlify.app/"><FaLink /> &nbsp;Live</a>
             <a target="_blank" href="https://github.com/utkarshh0/colabsync"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
+
+        <div className="projectCard">
+          <div className="img">
+            <img src={planit} height={100} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact /> <SiTailwindcss /> <SiRedux /> <SiExpress /> <TbBrandNodejs /> <SiTypescript /> <GrMysql />
+          </div>
+          <p>PlanIt</p>
+          <div className="btns">
+            <a target="_blank" href="https://plan-it-jet.vercel.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/PlanIt"><FaGithub /> &nbsp;Github</a>
+          </div>
+        </div>
+
+        <div className="projectCard">
+          <div className="img">
+            <img src={blog} height={100} alt="" />
+          </div>
+          <div className="techs">
+            <FaReact />  <SiExpress /> <TbBrandNodejs /> <TbBrandMongodb /> <SiTypescript /> <SiTailwindcss />
+          </div>
+          <p>Blog Sphere</p>
+          <div className="btns">
+            <a target="_blank" href="https://blogg-sphere.netlify.app/"><FaLink /> &nbsp;Live</a>
+            <a target="_blank" href="https://github.com/utkarshh0/Blog-Sphere/"><FaGithub /> &nbsp;Github</a>
           </div>
         </div>
 
